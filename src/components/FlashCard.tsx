@@ -43,12 +43,12 @@ const FlashCard: React.FC<FlashCardProps> = ({
   return (
     <div className="w-full max-w-3xl mx-auto">
       <div 
-        className="card-container w-full h-[400px] md:h-[450px] mx-auto mb-6"
+        className="card-container w-full h-[400px] md:h-[450px] mx-auto mb-6 cursor-pointer"
         onClick={!isFlipped && !answered ? handleFlip : undefined}
       >
         <div className={cn(
           "card-inner w-full h-full transition-all duration-500",
-          isFlipped ? "flip" : "flip-back"
+          isFlipped ? "rotate-y-180" : ""
         )}>
           <div className="card-front flex flex-col justify-center p-8 bg-card rounded-xl shadow-lg border border-border">
             <div className="text-sm text-muted-foreground mb-4">Question:</div>

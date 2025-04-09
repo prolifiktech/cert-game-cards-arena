@@ -95,6 +95,7 @@
   }
 }
 
+/* Card flip animation */
 .card-container {
   perspective: 1000px;
 }
@@ -117,10 +118,7 @@
   transform: rotateY(180deg);
 }
 
-.flip {
-  animation: flip 0.5s ease-out forwards;
-}
-
-.flip-back {
-  animation: flip-back 0.5s ease-out forwards;
+/* Rotate the card */
+.card-inner.rotate-y-180 {
+  transform: rotateY(180deg);
 }
