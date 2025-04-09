@@ -1,73 +1,37 @@
-# Welcome to your Lovable project
 
-## Project info
+# Certification Flash Cards Arena
 
-**URL**: https://lovable.dev/projects/41357d78-108b-4779-88b3-6369fa37e70c
+A mobile-first application that helps users study for certification exams using an interactive flash card system.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Randomized flash cards to test knowledge
+- Interactive card-flipping experience
+- Tracking of correct and incorrect answers
+- Progress statistics during the study session
+- Responsive design for mobile, tablet, and desktop devices
 
-**Use Lovable**
+## How to Use
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/41357d78-108b-4779-88b3-6369fa37e70c) and start prompting.
+1. View the question on the displayed card
+2. Tap or click the card to flip it and reveal the answer
+3. Mark whether you knew the answer or not
+4. Progress through all cards and track your statistics
+5. Reset anytime to start a new session
 
-Changes made via Lovable will be committed automatically to this repo.
+## Technical Information
 
-**Use your preferred IDE**
+This application is built with:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- ShadCN UI components 
 
-## How can I deploy this project?
+## Future Enhancements
 
-Simply open [Lovable](https://lovable.dev/projects/41357d78-108b-4779-88b3-6369fa37e70c) and click on Share -> Publish.
+- CSV file upload for custom flash cards
+- Multiple decks for different certification types
+- Spaced repetition algorithm for optimized learning
+- User accounts to save progress across sessions
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
